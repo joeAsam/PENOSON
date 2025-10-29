@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "/Users/joeas/Desktop/CODE/frontend/PEONSON-REACT/PENOSON/assets/penoson-logo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
     { to: "/about", label: "About" },
     { to: "/services", label: "Services" },
     { to: "/brands", label: "Brands" },
-    { to: "/articles", label: "Articles" },
+    // { to: "/articles", label: "Articles" },
     { to: "/projects", label: "Projects" },
   ];
 
@@ -22,8 +23,14 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="text-2xl font-bold text-primary">
-            Penoson International
+          <Link to="/" className="flex items-center gap-5">
+            <img 
+              src={logo} 
+              alt="Penoson International Logo" 
+              className="w-auto h-10"              
+              />
+
+              <h2 className="text-4xl font-bold text-primary">Penoson International</h2>
           </Link>
 
           {/* Desktop Navigation */}
