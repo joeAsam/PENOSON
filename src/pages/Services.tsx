@@ -6,33 +6,24 @@ const Services = () => {
   const services = [
     {
       icon: <Code className="w-10 h-10 text-primary" />,
-      title: "Web Development",
-      description: "Custom web applications built with modern technologies and best practices.",
+      title: "PENOSON BUSINESS SYSTEMS",
+      description: `Focus: Management consulting, idea structuring, and venture optimization.
+`,
     },
     {
       icon: <Palette className="w-10 h-10 text-primary" />,
-      title: "UI/UX Design",
-      description: "Beautiful, intuitive interfaces that users love to interact with.",
+      title: "PENOSON INDUSTRIAL SYSTEMS",
+      description: "Focus: Power, agriculture, and technology ventures, the operational arm managing Penoson’s industrial portfolios (e.g., Honda Power Products, Smart Farming Initiative).",
     },
     {
       icon: <Rocket className="w-10 h-10 text-primary" />,
-      title: "Digital Marketing",
-      description: "Strategic campaigns that drive growth and maximize your ROI.",
+      title: "PENOSON CREATIVE SYSTEMS",
+      description: "Focus: The creator economy, empowering creatives, innovators, and cultural entrepreneurs to build businesses around their ideas.",
     },
     {
       icon: <Users className="w-10 h-10 text-primary" />,
-      title: "Consulting",
-      description: "Expert guidance to help your business leverage technology effectively.",
-    },
-    {
-      icon: <Zap className="w-10 h-10 text-primary" />,
-      title: "Performance Optimization",
-      description: "Speed up your applications and improve user experience significantly.",
-    },
-    {
-      icon: <Shield className="w-10 h-10 text-primary" />,
-      title: "Security Services",
-      description: "Protect your digital assets with comprehensive security solutions.",
+      title: "PENOSON DEVELOPMENT SYSTEMS",
+      description: "Focus: Social impact, sustainability, and development consulting  aligning business with the UN SDGs.",
     },
   ];
 
@@ -45,7 +36,9 @@ const Services = () => {
             Our Services
           </h1>
           <p className="text-xl text-muted-foreground mb-12">
-            Comprehensive solutions tailored to your business needs
+            Penoson is a house of systems.
+            We stand at the intersection of business intelligence, industrial innovation, creative enterprise, and development impact.
+
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

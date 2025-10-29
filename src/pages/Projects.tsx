@@ -5,39 +5,23 @@ import { Badge } from "@/components/ui/badge";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce solution with advanced features and seamless checkout experience.",
-      tags: ["React", "Node.js", "Stripe"],
+      title: "SMART FARMING INITIATIVE",
+      description: "A modern farming solution with advanced features and seamless checkout experience.",
       status: "Completed",
     },
     {
-      title: "Healthcare Dashboard",
-      description: "Comprehensive patient management system with real-time analytics and reporting.",
-      tags: ["Vue.js", "Python", "PostgreSQL"],
+      title: "INA",
+      description: "A launching brand",
       status: "In Progress",
     },
     {
-      title: "Social Media App",
-      description: "Feature-rich social networking platform with real-time messaging and content sharing.",
-      tags: ["React Native", "Firebase", "GraphQL"],
-      status: "Completed",
+      title: "LOG",
+      description: "A laucnhing brand",
+      status: "In Progress",
     },
     {
-      title: "Finance Tracker",
+      title: "THE TRIBE",
       description: "Personal finance management tool with budget planning and investment tracking.",
-      tags: ["Angular", "Express", "MongoDB"],
-      status: "Completed",
-    },
-    {
-      title: "Learning Management System",
-      description: "Educational platform for online courses with video streaming and interactive content.",
-      tags: ["Next.js", "Prisma", "AWS"],
-      status: "In Progress",
-    },
-    {
-      title: "Restaurant Booking System",
-      description: "Reservation management system with real-time availability and automated notifications.",
-      tags: ["React", "Django", "MySQL"],
       status: "Completed",
     },
   ];
@@ -68,11 +52,11 @@ const Projects = () => {
                 <CardContent>
                   <p className="text-muted-foreground mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag, tagIndex) => (
+                    {/* {project.tags.map((tag, tagIndex) => (
                       <Badge key={tagIndex} variant="outline" className="text-xs">
                         {tag}
                       </Badge>
-                    ))}
+                    ))} */}
                   </div>
                 </CardContent>
               </Card>

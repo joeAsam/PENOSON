@@ -13,10 +13,10 @@ const Index = () => {
       <section className="container mx-auto px-4 py-20 md:py-32">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-            Welcome to Our Digital Excellence
+            VENTURE BUILDERS / IDEA MANAGERS
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            We transform ideas into exceptional digital experiences
+            Penoson International is a bridge between innovation and opportunity, delivering sustainable solutions that empower businesses and communities
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/services">

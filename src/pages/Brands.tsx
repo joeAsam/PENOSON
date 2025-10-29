@@ -3,14 +3,14 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Brands = () => {
   const brands = [
-    { name: "TechCorp", industry: "Technology" },
-    { name: "DesignHub", industry: "Creative Agency" },
-    { name: "FinanceFirst", industry: "Financial Services" },
-    { name: "HealthPlus", industry: "Healthcare" },
-    { name: "EduLearn", industry: "Education" },
-    { name: "RetailMax", industry: "Retail" },
-    { name: "FoodDelight", industry: "Food & Beverage" },
-    { name: "TravelEase", industry: "Travel & Tourism" },
+    { name: "HONDA", industry: "Machinery" },
+    { name: "OSEN", industry: "Beauty Agency" },
+    { name: "THE XAVIER", industry: "Fashion House" },
+    { name: "THE DANIELS", industry: "Tea Confectionery" },
+    { name: "THE 15 SPOT", industry: "Eatery" },
+    { name: "THE FIREWOOD HOUSE", industry: "Eatery" },
+    { name: "DAXTON", industry: "Company" },
+    { name: "NPP", industry: "Company" },
   ];
 
   return (

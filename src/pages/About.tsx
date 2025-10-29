@@ -30,8 +30,7 @@ const About = () => {
               <CardContent className="p-6 md:p-8">
                 <h2 className="text-2xl font-semibold mb-4 text-foreground">Our Mission</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  To empower businesses through innovative solutions and exceptional service.
-                  We strive to exceed expectations and deliver results that drive success.
+                  To build ventures that build industries.
                 </p>
               </CardContent>
             </Card>
