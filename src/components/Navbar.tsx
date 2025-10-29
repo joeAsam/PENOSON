@@ -30,7 +30,7 @@ const Navbar = () => {
               className="w-auto h-10"              
               />
 
-              <h2 className="text-4xl font-bold text-primary">Penoson International</h2>
+              <h2 className="text-4xl font-bold text-primary">PENOSON</h2>
           </Link>
 
           {/* Desktop Navigation */}
