@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import logo from "/Users/joeas/Desktop/CODE/frontend/PEONSON-REACT/PENOSON/assets/penoson-logo.png"
+import logo from "/assets/penoson-logo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
